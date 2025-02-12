@@ -16,5 +16,4 @@ def get_pickup_line():
     return jsonify({"line": line})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
-
+    app.run(host="0.0.0.0", port=10000, debug=True)  # Render uses port 10000
